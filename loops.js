@@ -17,16 +17,27 @@ function whileLoop(x) {
      return 'done'
   }
 
+<<<<<<< HEAD
   function maybeTrue() {
+=======
+function maybeTrue() {
+>>>>>>> 5cb055ec0a8648daab97403bdc84e8a5fb3024fa
   return Math.random() >= 0.5
 }
 
   function doWhileLoop(array) {
   do {
+<<<<<<< HEAD
     if (array.length>0) array.pop();
     else 
     return array;
     
 }   while (maybeTrue());
 return array
+=======
+    if (array >0) array.pop();
+    else return;
+    
+}   while (maybeTrue());
+>>>>>>> 5cb055ec0a8648daab97403bdc84e8a5fb3024fa
 }
